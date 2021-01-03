@@ -2,16 +2,50 @@
   margin: 0;
   padding: 0;
 }
-.web {
-  color: #2196f3;
-}
 
 ul {
   list-style: none;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* LOGO */
+.web {
+  color: #2196f3;
+}
+.logo,
+.logo:visited {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+  font-size: 26px;
+  line-height: 31px;
+}
+.footer .logo {
+  color: white;
+}
+
+/* Navigation */
+
+.navigation {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .main-button {
   background-color: #2196f3;
+  color: white;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .menu a,
@@ -21,4 +55,65 @@ ul {
 
 .menu a:hover {
   color: #2196f3;
+}
+
+/* если не писать .menu правило не срабатывает и цвет не ставиться, нельзя напрямую обращатся к вложенному классу? */
+.menu .tel,
+.menu .tel:visited {
+  color: #757575;
+}
+.banner {
+  background: #2f303a;
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+}
+/* первый блок */
+
+.advantages h2 {
+  color: white;
+}
+.advantages p {
+  color: #757575;
+  line-height: 24px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+}
+
+/* 3 blok */
+.team {
+  color: #757575;
+  font-size: 16px;
+  line-height: 19px;
+}
+.team h3 {
+  color: black;
+  font-weight: 500;
+}
+
+/* Footer */
+
+.footer {
+  background: #2f303a;
+  font-style: normal;
+}
+.contacts a,
+.contacts a:visited {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address a,
+.address a:visited {
+  color: white;
 }
