@@ -27,6 +27,7 @@ body {
   color: black;
   font-size: 26px;
   line-height: 31px;
+  text-decoration: none;
 }
 .footer .logo {
   color: white;
@@ -51,6 +52,7 @@ body {
 .menu a,
 .menu a:visited {
   color: #212121;
+  text-decoration: none;
 }
 
 .menu a:hover {
@@ -112,6 +114,7 @@ h2 {
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .address a,
 .address a:visited {
