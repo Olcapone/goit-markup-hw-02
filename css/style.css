@@ -55,13 +55,13 @@ body {
   text-decoration: none;
 }
 
-.menu a:hover {
+.menu a:hover,
+a:focus {
   color: #2196f3;
 }
 
-/* если не писать .menu правило не срабатывает и цвет не ставиться, нельзя напрямую обращатся к вложенному классу? */
-.menu .tel,
-.menu .tel:visited {
+.tel,
+.tel:visited {
   color: #757575;
 }
 .banner {
@@ -89,6 +89,7 @@ h2 {
   font-size: 36px;
   line-height: 42px;
   font-weight: bold;
+  color: black;
 }
 
 /* 3 blok */
