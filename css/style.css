@@ -3,30 +3,36 @@
   padding: 0;
 }
 
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #000000;
+  --hover-text-color: #2196f3;
+}
+
 ul {
   list-style: none;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-align: center;
 }
 
 /* LOGO */
 .web {
-  color: #2196f3;
+  color: var(--hover-text-color);
 }
 .logo,
 .logo:visited {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   color: black;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   text-decoration: none;
 }
 .footer .logo {
@@ -38,15 +44,14 @@ body {
 .navigation {
   text-align: center;
   font-weight: 500;
-  letter-spacing: 0.02em;
 }
 
 .main-button {
-  background-color: #2196f3;
+  background-color: var(--hover-text-color);
   color: white;
-  line-height: 30px;
   font-size: 16px;
-  font-weight: bold;
+  line-height: 1.88;
+  font-weight: 500;
 }
 
 .menu a,
@@ -56,13 +61,16 @@ body {
 }
 
 .menu a:hover,
+.menu a:focus,
+.tel a:hover,
 a:focus {
-  color: #2196f3;
+  color: var(--hover-text-color);
 }
 
-.tel,
-.tel:visited {
-  color: #757575;
+.tel a,
+.tel a:visited {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 .banner {
   background: #2f303a;
@@ -72,8 +80,7 @@ h1 {
   color: white;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
+  line-height: 1.36;
 }
 /* первый блок */
 
@@ -81,22 +88,22 @@ h1 {
   color: white;
 }
 .advantages p {
-  color: #757575;
-  line-height: 24px;
+  color: var(--primary-text-color);
+  line-height: 1.7;
 }
 
 h2 {
   font-size: 36px;
-  line-height: 42px;
-  font-weight: bold;
+  line-height: 1.17;
+  font-weight: 500;
   color: black;
 }
 
 /* 3 blok */
 .team {
-  color: #757575;
+  color: var(--primary-text-color);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
 .team h3 {
   color: black;
@@ -112,8 +119,7 @@ h2 {
 .contacts a,
 .contacts a:visited {
   font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
