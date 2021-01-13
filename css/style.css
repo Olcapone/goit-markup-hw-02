@@ -20,6 +20,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 /* LOGO */
@@ -44,6 +45,7 @@ body {
 .navigation {
   text-align: center;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .main-button {
@@ -52,6 +54,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   font-weight: 500;
+  letter-spacing: 0.06em;
 }
 
 .menu a,
@@ -80,6 +83,7 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-align: center;
 }
 /* первый блок */
